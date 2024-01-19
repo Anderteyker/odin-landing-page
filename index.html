@@ -1,84 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <title>Odin Landing Page</title>
 </head>
+
 <body>
-  
+
   <header>
-  <div class="wrapper_header">
-    <div class="nav">
-      <div class="logo">
-        <p class="logo_text">Header Logo</p>
+    <div class="wrapper_header">
+      <div class="nav">
+        <div class="logo">
+          <p class="logo_text">Header Logo</p>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a class="menu_text" href="#">header link one</a></li>
+            <li><a class="menu_text" href="#">header link two</a></li>
+            <li><a class="menu_text" href="#">header link three</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="menu">
-        <ul>
-          <li><a class="menu_text" href="#">header link one</a></li>
-          <li><a class="menu_text" href="#">header link two</a></li>
-          <li><a class="menu_text" href="#">header link three</a></li>
-        </ul>
+      <div class="top">
+        <div class="top_left">
+          <h1 class="top_left-title">This website is awesome</h1>
+          <p class="top_left-text">This website has some subtext that goes here under the main title. It's a smaller
+            font and the color is lower contrast.</p>
+          <a class="top_left-btn" href="#">Sign up</a>
+        </div>
+        <div class="top_right">
+          <p class="top_right-img">this is a placeholder for an image</p>
+        </div>
       </div>
     </div>
-    <div class="top">
-      <div class="top_left">
-        <h1 class="top_left-title">This website is awesome</h1>
-        <p class="top_left-text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-        <a class="top_left-btn" href="#">Sign up</a>
-      </div>
-      <div class="top_right">
-        <p class="top_right-img">this is a placeholder for an image</p>
-      </div>
-    </div>
-  </div>
   </header>
 
 
   <div class="wrapper_info">
     <div class="info">
-    <h2>Some random information.</h2>
-    <div class="">
-      <div class="card">
-        <div class="square"></div>
-        <p>this is some subtext under an illustration or image</p>
+      <h2 class="info__header">Some random information.</h2>
+      <div class="info__content">
+        <div class="info__card">
+          <div class="info__square"></div>
+          <p>this is some subtext under an illustration or image</p>
+        </div>
+        <div class="info__card">
+          <div class="info__square"></div>
+          <p>this is some subtext under an illustration or image</p>
+        </div>
+        <div class="info__card">
+          <div class="info__square"></div>
+          <p>this is some subtext under an illustration or image</p>
+        </div>
+        <div class="info__card">
+          <div class="info__square"></div>
+          <p>this is some subtext under an illustration or image</p>
+        </div>
       </div>
-      <div class="card">
-        <div class="square"></div>
-        <p>this is some subtext under an illustration or image</p>
-      </div>
-      <div class="card">
-        <div class="square"></div>
-        <p>this is some subtext under an illustration or image</p>
-      </div>
-      <div class="card">
-        <div class="square"></div>
-        <p>this is some subtext under an illustration or image</p>
-      </div>
-    </div>
     </div>
   </div>
 
+  <div class="wrapper__quote">
     <div class="quote">
-      <p class="quote-text">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+      <p class="quote-text">
+        This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up
+        space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
       <p class="quote-author">- Thor, God of Thunder</p>
     </div>
+  </div>
 
+  <div class="wrapper__call">
     <div class="call">
       <div class="call_left">
         <p class="call_left-title">Call to action! It's time!</p>
         <p class="call_left-text">Sign up for our product by clicking that button right over there!</p>
       </div>
       <div class="call_right">
-        <button class="call_right-btn">Sign up</button>
+        <a class="call_right-btn" href="#">Sign up</a>
       </div>
     </div>
- 
+  </div>
 
   <footer>
     <div class="footer_text">Copyright © The Odin Project 2021</div>
   </footer>
- 
+
 </body>
+
 </html>
